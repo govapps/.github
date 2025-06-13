@@ -1,12 +1,7 @@
-## Hi there 👋
-
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+# Deploy GovOneID
+## Deploy
+1. <a href="https://github.com/govapps/infra-template/actions/workflows/auth.yaml"> Criar tabelas no dynamodb </a>
+2. <a href="https://github.com/govapps/infra-template/actions/workflows/gateway.yaml"> Criar o gateway </a>
+3. <a href="https://github.com/govapps/valid-func/actions/workflows/install.yml"> Criar lambda de validar </a>
+4. <a href="https://github.com/govapps/auth-func/actions/workflows/install.yml"> Criar lambda de autenticar </a>
+5. <a href="https://github.com/govapps/people-func/actions/workflows/install.yml"> Criar lambda de People </a>
