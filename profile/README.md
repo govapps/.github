@@ -27,10 +27,12 @@
    * SECRET_KEY = 31b0cd4f858c25ec040b1f8ec6b9b46d346d87f297486768fc5685928477e379
 4. Lambda people
    * people = ambiente-people
-
-### descobrir o que cada lambda faz e os endpoint
+  
+   
 * item 3 precisa melhorar e criar o OPTIONS no endpoint, pois não está criando. <a href="https://github.com/govapps/infra-template/blob/main/aws/Function.yaml"> da linha 102 a 128 precisa ser melhorado </a>
 * Bug nesse <a href="https://github.com/govapps/infra-template/blob/main/aws/Function.yaml"> .yaml </a>, não está gerando o optionsMethod de alguns endpoint.
+* Tem colocar os layers nas functions **firebase-admin--jwt-layer**
+* Tem que dar permissão de acesso ao dynamodb para as lambdas
 
 ### ver a documentação no postman 
 
