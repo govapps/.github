@@ -32,7 +32,7 @@
 * item 3 precisa melhorar e criar o OPTIONS no endpoint, pois não está criando. <a href="https://github.com/govapps/infra-template/blob/main/aws/Function.yaml"> da linha 102 a 128 precisa ser melhorado </a>
 * Bug nesse <a href="https://github.com/govapps/infra-template/blob/main/aws/Function.yaml"> .yaml </a>, não está gerando o optionsMethod de alguns endpoint.
 * Tem colocar os layers nas functions **firebase-admin--jwt-layer**
-* Tem que dar permissão de acesso ao dynamodb para as lambdas
+* Tem que dar permissão de acesso as lambdas ao dynamodb
 
 ### ver a documentação no postman 
 
