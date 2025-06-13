@@ -11,6 +11,19 @@
 2. <a href="https://github.com/govapps/auth-func/actions/workflows/deploy-dev.yml"> Deploy lambda de autenticar ( /auth ) </a>
 3. <a href="https://github.com/govapps/people-func/actions/workflows/deploy-dev.yml"> Deploy lambda de People ( /people ) </a>
 
+## Variáveis de ambiente
+2. Lambda auth
+   * app_url = ambiente-app_url
+   * group_users = ambiente-group_users
+   * groups = ambiente-groups
+   * people = ambiente-people
+   * projects = ambiente-projects
+   * projects_user = ambiente-projects_user
+   * roles = ambiente-roles
+   * SECRET_KEY = 31b0cd4f858c25ec040b1f8ec6b9b46d346d87f297486768fc5685928477e379
+4. Lambda people
+   * people = ambiente-people
+
 ### descobrir o que cada lambda faz e os endpoint
 * item 3 precisa melhorar e criar o OPTIONS no endpoint, pois não está criando. <a href="https://github.com/govapps/infra-template/blob/main/aws/Function.yaml"> da linha 102 a 128 precisa ser melhorado </a>
 * Bug nesse <a href="https://github.com/govapps/infra-template/blob/main/aws/Function.yaml"> .yaml </a>, não está gerando o optionsMethod de alguns endpoint.
